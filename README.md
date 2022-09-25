@@ -1,4 +1,4 @@
-# aws-solution-architect-associate
+# aws-architect-for-real-world
 ## EC2
 ### Security Groups
 - A security group is a set of firewall rules that control the traffic for your instance. Add rules to allow specific traffic to reach your instance.

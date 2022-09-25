@@ -72,6 +72,28 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
 - Add you can start using your image when creating a instance
 <img width="605" alt="image" src="https://user-images.githubusercontent.com/37569003/192147680-bb6aa5a5-ccf4-4a74-8b38-5fcf4153c636.png">
 
+### Placement Groups
+- Determines how the instances are placed on the underlying hardware.
+- Cluster (low network latency,low availability)
+- Rack crashes => All EC2 instances fail
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/37569003/192152784-b0d72e64-34b2-46d0-b248-da4f0361dc4d.png">
+
+- Spread (avoid simultaneous failures)
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/37569003/192152844-c342c582-3471-4568-914e-5f7ff5deb2eb.png">
+
+- Partition (multiple partitions with low network latency)
+<img width="422" alt="image" src="https://user-images.githubusercontent.com/37569003/192152906-6b9bad6e-d9b0-4cba-8722-047453eb6b9f.png">
+
+### EC2 Pricing
+- https://aws.amazon.com/ec2/pricing/
+- On Demand
+- Spot Instances
+- Savings plan
+- Reserved Instances
+- Dedicated Hosts
+## VPCs
+
+
 
 
 

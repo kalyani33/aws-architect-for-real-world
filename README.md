@@ -57,3 +57,22 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/37569003/192143674-707ce87b-6641-4eb5-b22f-df80aceb7742.png">
 - More about that at https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html
 
+### Elastic IP Addresses
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
+- An Elastic IP address is a static(it does not change over time) public IPv4 address
+<img width="406" alt="image" src="https://user-images.githubusercontent.com/37569003/192144462-9cfa6ffc-3ea3-4a46-a282-2a843162c5bd.png">
+
+<img width="426" alt="image" src="https://user-images.githubusercontent.com/37569003/192144593-95bf7bd4-b40b-4a9e-9a27-300f4f36329a.png">
+- Can be associated to "Instance" or "Network Interface"
+
+### Elastic Network Interfaces
+- Flow logs can capture IP traffic flow information for the network interfaces associated with your resources. You can create multiple subscriptions to send traffic to different destinations.
+### Create Custom Image
+- An image (also referred to as an AMI) defines the programs and settings that are applied when you launch an EC2 instance. You can create an image from the configuration of an existing instance.
+- Add you can start using your image when creating a instance
+<img width="605" alt="image" src="https://user-images.githubusercontent.com/37569003/192147680-bb6aa5a5-ccf4-4a74-8b38-5fcf4153c636.png">
+
+
+
+
+

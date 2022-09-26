@@ -1,4 +1,7 @@
 # aws-architect-for-real-world
+## AWS Global Infrastructure
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192211068-b98668d8-65f3-4fce-98ad-3dc9ef9aa0de.png">
+
 ## EC2
 ### Security Groups
 - A security group is a set of firewall rules that control the traffic for your instance. Add rules to allow specific traffic to reach your instance.
@@ -92,6 +95,43 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
 - Reserved Instances
 - Dedicated Hosts
 ## VPCs
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192207077-794e0d95-8965-4a44-83a9-48c68e926faa.png">
+
+<p float="left">
+  <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192208926-8c077eec-581f-4f28-9154-26eae204bf58.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192209071-00cf1bd1-45c1-4699-9b02-1d2c6e0e52eb.png">
+</p>
+
+### Internet Gateway
+- Allows communication between your insatnces in your VPC and the internet
+- Your default VPC already has an IGW attached
+- Internet Gateway is to be attached to VPC to enable communication with internet
+- <b>Only 1 IGW can be attached to a VPC at a time</b>
+- <b>An IGW cannot dettached from a VPC while there are active aws resources in the VPC(such as ec2 instance or RDS database)</b>
+
+### Route Tables
+- Route table contains a set of rules called 'Routes' that are used to determine where internet traffic is redirected
+### NACLs
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192219674-8caf3ae2-735e-4adc-8f17-f4c176127fa7.png">
+<p float="left">
+  <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192219947-3ccd4d60-af16-45cf-a0c9-837235d5604f.png">
+  <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192220116-159ba398-dde4-4913-83d3-1cd60d892992.png">
+ </p>
+ 
+ ### Subnets
+ <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192223400-4c9d6cf8-f75e-4847-b476-6d0b14c889f4.png">
+ 
+ #### Public vs Private Subnets
+ <p float="left">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192223604-e65e2adc-40e7-41d6-b4e2-6cd26a692694.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192223716-34af0238-49a1-419b-a0f6-27ad6bbcd089.png">
+
+ </p>
+
+
+
+
+
 
 
 

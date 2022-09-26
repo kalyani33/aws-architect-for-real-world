@@ -79,13 +79,13 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
 - Determines how the instances are placed on the underlying hardware.
 - Cluster (low network latency,low availability)
 - Rack crashes => All EC2 instances fail
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/37569003/192152784-b0d72e64-34b2-46d0-b248-da4f0361dc4d.png">
-
-- Spread (avoid simultaneous failures)
-<img width="410" alt="image" src="https://user-images.githubusercontent.com/37569003/192152844-c342c582-3471-4568-914e-5f7ff5deb2eb.png">
-
 - Partition (multiple partitions with low network latency)
-<img width="422" alt="image" src="https://user-images.githubusercontent.com/37569003/192152906-6b9bad6e-d9b0-4cba-8722-047453eb6b9f.png">
+- Spread (avoid simultaneous failures)
+<p float="left">
+<img width="330" alt="image" src="https://user-images.githubusercontent.com/37569003/192152784-b0d72e64-34b2-46d0-b248-da4f0361dc4d.png">
+<img width="330" alt="image" src="https://user-images.githubusercontent.com/37569003/192152844-c342c582-3471-4568-914e-5f7ff5deb2eb.png">
+<img width="330" alt="image" src="https://user-images.githubusercontent.com/37569003/192152906-6b9bad6e-d9b0-4cba-8722-047453eb6b9f.png">
+</p>
 
 ### EC2 Pricing
 - https://aws.amazon.com/ec2/pricing/
@@ -125,8 +125,16 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
  <p float="left">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192223604-e65e2adc-40e7-41d6-b4e2-6cd26a692694.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192223716-34af0238-49a1-419b-a0f6-27ad6bbcd089.png">
-
  </p>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ## Useful Links
+ http://examcramnotes.blogspot.com/2022/05/all-my-aws-csaa-notes-in-one-spot.html
 
 
 

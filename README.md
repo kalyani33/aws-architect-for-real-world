@@ -1,6 +1,14 @@
 # aws-architect-for-real-world
 ## AWS Global Infrastructure
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192211068-b98668d8-65f3-4fce-98ad-3dc9ef9aa0de.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192211068-b98668d8-65f3-4fce-98ad-3dc9ef9aa0de.png"> 
+
+## IAM
+- IAM is used to manage AWS users and their access to AWS accounts and Services
+- Good way to think about groups and roles: 
+  - Groups are logical grouping of users with the same permissions; 
+  - Roles are logical group of AWS Services with the same permission (i.e. Users can be assigned to a group which can have policies, just like AWS services can be assigned to a role which can have policies).
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192265217-d4ad07a1-159a-4757-ae24-b3720015aaea.png">
+
 
 ## EC2
 ### Security Groups
@@ -127,6 +135,15 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192223716-34af0238-49a1-419b-a0f6-27ad6bbcd089.png">
  </p>
  
+ ## S3
+ <p float="left">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192269021-d9bb28ef-262a-4bb7-9810-320c6d4ed154.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192269106-b72c29ff-45b5-43d4-a7f0-63d4a5eaa9b8.png">
+</P>
+<img width="291" alt="image" src="https://user-images.githubusercontent.com/37569003/192269395-24367ae5-60e1-412f-93dd-15b924964614.png">
+
+
+ 
  
  
  
@@ -134,7 +151,10 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
  
  
  ## Useful Links
- http://examcramnotes.blogspot.com/2022/05/all-my-aws-csaa-notes-in-one-spot.html
+ | Links |
+| :---:         |
+| [AWS Essentials by Linux Academy](https://www.youtube.com/playlist?list=PLv2a_5pNAko0Mijc6mnv04xeOut443Wnk) |
+| [Notes](http://examcramnotes.blogspot.com/2022/05/all-my-aws-csaa-notes-in-one-spot.html) |
 
 
 

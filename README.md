@@ -142,6 +142,19 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
 </P>
 <img width="291" alt="image" src="https://user-images.githubusercontent.com/37569003/192269395-24367ae5-60e1-412f-93dd-15b924964614.png">
 
+### Storage Classes
+
+- Storage classes has varying attributes that dictates things like:
+  - Storage Cost
+  - Object Availability
+  - Object Durability
+  - Frequency of access to the object
+- Each object must be assigned to a storage class(standard is default SC)
+<img width="296" alt="image" src="https://user-images.githubusercontent.com/37569003/192274887-0699a2f4-bb8f-47ac-a0bd-488e118158f7.png">
+#### S3 Object Lifecycle
+- Lifecycle policies,automates the process of changing the files storage class to different storage class(or deletion) ,based on time intervals to meet usage needs and keep the storage cost as low as possible
+
+
 
  
  

@@ -138,6 +138,9 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
  ### CIDR
  - Classless Inter Domain Routing
  - 0.0.0.0/0  - means all IP
+ ### Security Groups vs NACLs
+ <img width="800" alt="image" src="https://user-images.githubusercontent.com/37569003/192526823-9c43def2-519f-4103-b1af-1ab38067f109.png">
+
  
  ## S3
  <p float="left">

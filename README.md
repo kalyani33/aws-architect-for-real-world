@@ -135,6 +135,10 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192223716-34af0238-49a1-419b-a0f6-27ad6bbcd089.png">
  </p>
  
+ ### CIDR
+ - Classless Inter Domain Routing
+ - 0.0.0.0/0  - means all IP
+ 
  ## S3
  <p float="left">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192269021-d9bb28ef-262a-4bb7-9810-320c6d4ed154.png">

@@ -143,6 +143,9 @@ echo "<h1>tag Hello welcome to AWS learning</h1>" > index.html
 
  
  ## S3
+ - Global service
+ - Store and retrieve any amount of data from anywhere
+ - Buckets are containers for data stored in S3.
  <p float="left">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192269021-d9bb28ef-262a-4bb7-9810-320c6d4ed154.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/37569003/192269106-b72c29ff-45b5-43d4-a7f0-63d4a5eaa9b8.png">
